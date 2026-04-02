@@ -669,52 +669,52 @@ export default function Home() {
             Add-Ons
           </h2>
           <div className="grid sm:grid-cols-3 gap-6">
-            <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col">
+            <div className="bg-white border border-gray-200 rounded-xl p-6">
               <h3 className="text-gray-900 mb-1" style={{ fontWeight: "500" }}>
                 Additional Experience Page
               </h3>
               <p
-                className="text-sm flex-1"
+                className="text-sm mb-3"
                 style={{ fontWeight: "300", color: "#888" }}
               >
                 Sub-brand or product line
               </p>
               <div
-                className="text-2xl text-gray-900 mt-3"
+                className="text-2xl text-gray-900"
                 style={{ fontWeight: "300" }}
               >
                 $3,000
               </div>
             </div>
-            <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col">
+            <div className="bg-white border border-gray-200 rounded-xl p-6">
               <h3 className="text-gray-900 mb-1" style={{ fontWeight: "500" }}>
                 Campaign Build
               </h3>
               <p
-                className="text-sm flex-1"
+                className="text-sm mb-3"
                 style={{ fontWeight: "300", color: "#888" }}
               >
                 Seasonal, holiday, or co-brand partnership
               </p>
               <div
-                className="text-2xl text-gray-900 mt-3"
+                className="text-2xl text-gray-900"
                 style={{ fontWeight: "300" }}
               >
                 $2,500
               </div>
             </div>
-            <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col">
+            <div className="bg-white border border-gray-200 rounded-xl p-6">
               <h3 className="text-gray-900 mb-1" style={{ fontWeight: "500" }}>
                 Custom AI Video
               </h3>
               <p
-                className="text-sm flex-1"
+                className="text-sm mb-3"
                 style={{ fontWeight: "300", color: "#888" }}
               >
                 AI-generated campaign videos beyond the included avatar and quiz narrations
               </p>
               <div
-                className="text-2xl text-gray-900 mt-3"
+                className="text-2xl text-gray-900"
                 style={{ fontWeight: "300" }}
               >
                 From $500
