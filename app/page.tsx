@@ -36,17 +36,13 @@ const partners = [
     name: "Foley Family Wines",
     description: "80+ wines, Date Night Collection",
   },
-  {
-    name: "The Wine Group",
-    description: "Portfolio experience",
-  },
-  {
+{
     name: "Corks & Cheers (WX Brands)",
     description: "Full catalog experience",
   },
   {
     name: "Bar Dog",
-    description: "Single brand experience",
+    description: "Single brand, multi-campaign experience",
   },
 ];
 
