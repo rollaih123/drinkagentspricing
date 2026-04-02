@@ -351,6 +351,12 @@ export default function Home() {
               Everything included — branded page, AI finder quiz, video avatar,
               product catalog setup, and persona configuration.
             </p>
+            <div
+              className="mt-4 inline-block bg-green-50 border border-green-200 text-green-800 text-sm px-4 py-2 rounded-full"
+              style={{ fontWeight: "500" }}
+            >
+              Waived when you sign up for a Managed Program
+            </div>
           </div>
 
           {/* Monthly Program Toggle */}
