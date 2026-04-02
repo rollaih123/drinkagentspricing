@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap");
 
 :root {
   --background: #ffffff;
@@ -9,12 +8,6 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Raleway", "Helvetica Neue", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Cinzel", Georgia, serif;
+  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
 }
