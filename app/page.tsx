@@ -619,39 +619,46 @@ export default function Home() {
             </p>
 
             {/* Link in Bio Bonus */}
-            <div className="mt-8 border-t border-white/10 pt-8 flex flex-col sm:flex-row gap-6 items-start">
-              <div className="flex-1">
-                <div
-                  className="text-xs uppercase tracking-wider text-amber-400 mb-2"
-                  style={{ fontWeight: "500" }}
-                >
-                  Included at No Additional Cost
+            <div className="mt-8 bg-amber-400/10 border border-amber-400/30 rounded-2xl p-6 md:p-8">
+              <div className="flex flex-col sm:flex-row gap-6 items-start">
+                <div className="shrink-0 w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center">
+                  <svg className="w-6 h-6 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m9.86-2.54a4.5 4.5 0 0 0-1.242-7.244l-4.5-4.5a4.5 4.5 0 0 0-6.364 6.364L4.34 8.374" />
+                  </svg>
                 </div>
-                <h3
-                  className="text-lg text-white mb-2"
-                  style={{ fontWeight: "500" }}
-                >
-                  Branded Link-in-Bio Experience
-                </h3>
-                <p
-                  className="text-sm"
-                  style={{ fontWeight: "300", color: "rgba(255,255,255,0.6)" }}
-                >
-                  Founding partners also receive a custom link-in-bio page for
-                  their social media channels — a branded hub that highlights
-                  your active campaigns, features a mini finder quiz, and links
-                  directly to your full DrinkAgents experience. Think Linktree,
-                  but built for beverage brands.
-                </p>
-                <a
-                  href="https://link.fig1.ai/bardog2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block mt-4 text-sm border border-white/30 text-white px-4 py-2 rounded-full hover:bg-white/10 transition-colors"
-                  style={{ fontWeight: "500" }}
-                >
-                  See an Example
-                </a>
+                <div className="flex-1">
+                  <div
+                    className="text-xs uppercase tracking-wider text-amber-400 mb-2"
+                    style={{ fontWeight: "600" }}
+                  >
+                    Bonus — Included at No Additional Cost
+                  </div>
+                  <h3
+                    className="text-xl text-white mb-2"
+                    style={{ fontWeight: "500" }}
+                  >
+                    Branded Link-in-Bio Experience
+                  </h3>
+                  <p
+                    className="text-sm"
+                    style={{ fontWeight: "300", color: "rgba(255,255,255,0.7)" }}
+                  >
+                    Founding partners also receive a custom link-in-bio page for
+                    their social media channels — a branded hub that highlights
+                    your active campaigns, features a mini finder quiz, and links
+                    directly to your full DrinkAgents experience. Think Linktree,
+                    but built for beverage brands.
+                  </p>
+                  <a
+                    href="https://link.fig1.ai/bardog2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-4 text-sm bg-amber-400 text-gray-900 px-5 py-2 rounded-full hover:bg-amber-300 transition-colors"
+                    style={{ fontWeight: "600" }}
+                  >
+                    See an Example
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -673,13 +680,13 @@ export default function Home() {
                 Additional Experience Page
               </h3>
               <p
-                className="text-sm mb-3 flex-1"
+                className="text-sm flex-1"
                 style={{ fontWeight: "300", color: "#888" }}
               >
                 Sub-brand or product line
               </p>
               <div
-                className="text-2xl text-gray-900"
+                className="text-2xl text-gray-900 mt-3"
                 style={{ fontWeight: "300" }}
               >
                 $3,000
@@ -690,13 +697,13 @@ export default function Home() {
                 Campaign Build
               </h3>
               <p
-                className="text-sm mb-3 flex-1"
+                className="text-sm flex-1"
                 style={{ fontWeight: "300", color: "#888" }}
               >
                 Seasonal, holiday, or co-brand partnership
               </p>
               <div
-                className="text-2xl text-gray-900"
+                className="text-2xl text-gray-900 mt-3"
                 style={{ fontWeight: "300" }}
               >
                 $2,500
@@ -707,13 +714,13 @@ export default function Home() {
                 Custom AI Video
               </h3>
               <p
-                className="text-sm mb-3 flex-1"
+                className="text-sm flex-1"
                 style={{ fontWeight: "300", color: "#888" }}
               >
                 AI-generated campaign videos beyond the included avatar and quiz narrations
               </p>
               <div
-                className="text-2xl text-gray-900"
+                className="text-2xl text-gray-900 mt-3"
                 style={{ fontWeight: "300" }}
               >
                 From $500
