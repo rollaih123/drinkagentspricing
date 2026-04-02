@@ -37,6 +37,7 @@ const partners = [
     description: "80+ wines, Date Night Collection",
     logo: "/images/foley-logo.webp",
     url: "https://drinkagents.com/experience/foley",
+    logoSize: 110,
   },
   {
     name: "Corks & Cheers (WX Brands)",
@@ -298,13 +299,13 @@ export default function Home() {
                 key={partner.name}
                 className="border border-gray-200 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow w-full sm:w-64 flex flex-col"
               >
-                <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center">
+                <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
                   <Image
                     src={partner.logo}
                     alt={partner.name}
-                    width={80}
-                    height={80}
-                    className="object-contain max-h-20"
+                    width={partner.logoSize || 80}
+                    height={partner.logoSize || 80}
+                    className="object-contain max-h-24"
                   />
                 </div>
                 <h3
