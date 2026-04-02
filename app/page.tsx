@@ -749,7 +749,7 @@ export default function Home() {
             Where consumers discover their next favorite drink.
           </p>
           <a
-            href="mailto:partners@drinkagents.com"
+            href="mailto:sales@drinkagents.com"
             className="inline-block bg-white text-gray-900 px-8 py-4 rounded-full hover:bg-gray-100 transition-colors"
             style={{ fontWeight: "500" }}
           >
