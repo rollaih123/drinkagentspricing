@@ -616,6 +616,43 @@ export default function Home() {
               fee begins based on portfolio size. We ask for permission to use
               anonymized results as a case study.
             </p>
+
+            {/* Link in Bio Bonus */}
+            <div className="mt-8 border-t border-white/10 pt-8 flex flex-col sm:flex-row gap-6 items-start">
+              <div className="flex-1">
+                <div
+                  className="text-xs uppercase tracking-wider text-amber-400 mb-2"
+                  style={{ fontWeight: "500" }}
+                >
+                  Included at No Additional Cost
+                </div>
+                <h3
+                  className="text-lg text-white mb-2"
+                  style={{ fontWeight: "500" }}
+                >
+                  Branded Link-in-Bio Experience
+                </h3>
+                <p
+                  className="text-sm"
+                  style={{ fontWeight: "300", color: "rgba(255,255,255,0.6)" }}
+                >
+                  Founding partners also receive a custom link-in-bio page for
+                  their social media channels — a branded hub that highlights
+                  your active campaigns, features a mini finder quiz, and links
+                  directly to your full DrinkAgents experience. Think Linktree,
+                  but built for beverage brands.
+                </p>
+                <a
+                  href="https://link.fig1.ai/bardog2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-4 text-sm border border-white/30 text-white px-4 py-2 rounded-full hover:bg-white/10 transition-colors"
+                  style={{ fontWeight: "500" }}
+                >
+                  See an Example
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
