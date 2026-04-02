@@ -610,7 +610,7 @@ export default function Home() {
           >
             Add-Ons
           </h2>
-          <div className="grid sm:grid-cols-2 gap-6">
+          <div className="grid sm:grid-cols-3 gap-6">
             <div className="bg-white border border-gray-200 rounded-xl p-6">
               <h3 className="text-gray-900 mb-1" style={{ fontWeight: "500" }}>
                 Additional Experience Page
@@ -644,6 +644,29 @@ export default function Home() {
               >
                 $2,500
               </div>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-xl p-6">
+              <h3 className="text-gray-900 mb-1" style={{ fontWeight: "500" }}>
+                Custom AI Video
+              </h3>
+              <p
+                className="text-sm mb-3"
+                style={{ fontWeight: "300", color: "#888" }}
+              >
+                AI-generated campaign videos beyond the included avatar and quiz narrations
+              </p>
+              <div
+                className="text-2xl text-gray-900"
+                style={{ fontWeight: "300" }}
+              >
+                From $500
+              </div>
+              <p
+                className="text-xs mt-1"
+                style={{ fontWeight: "300", color: "#aaa" }}
+              >
+                per 30-second video
+              </p>
             </div>
           </div>
         </div>
