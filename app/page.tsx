@@ -296,7 +296,7 @@ export default function Home() {
             {partners.map((partner) => (
               <div
                 key={partner.name}
-                className="border border-gray-200 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow w-full sm:w-64"
+                className="border border-gray-200 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow w-full sm:w-64 flex flex-col"
               >
                 <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center">
                   <Image
@@ -314,6 +314,7 @@ export default function Home() {
                   {partner.name}
                 </h3>
                 <p
+                  className="flex-1"
                   style={{ fontWeight: "300", color: "#888", fontSize: "14px" }}
                 >
                   {partner.description}
