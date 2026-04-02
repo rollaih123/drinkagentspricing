@@ -36,16 +36,19 @@ const partners = [
     name: "Foley Family Wines",
     description: "80+ wines, Date Night Collection",
     logo: "/images/foley-logo.webp",
+    url: "https://drinkagents.com/experience/foley",
   },
   {
     name: "Corks & Cheers (WX Brands)",
     description: "Full catalog experience",
     logo: "/images/corks-logo.png",
+    url: "https://drinkagents.com/experience/corks-and-cheers",
   },
   {
     name: "Bar Dog",
     description: "Single brand, multi-campaign experience",
     logo: "/images/bar-dog.gif",
+    url: "https://drinkagents.com/experience/bar-dog",
   },
 ];
 
@@ -315,6 +318,15 @@ export default function Home() {
                 >
                   {partner.description}
                 </p>
+                <a
+                  href={partner.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-4 text-sm border border-gray-300 text-gray-700 px-4 py-2 rounded-full hover:bg-gray-50 transition-colors"
+                  style={{ fontWeight: "500" }}
+                >
+                  View Experience
+                </a>
               </div>
             ))}
           </div>
