@@ -618,12 +618,12 @@ export default function Home() {
             Add-Ons
           </h2>
           <div className="grid sm:grid-cols-3 gap-6">
-            <div className="bg-white border border-gray-200 rounded-xl p-6">
+            <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col">
               <h3 className="text-gray-900 mb-1" style={{ fontWeight: "500" }}>
                 Additional Experience Page
               </h3>
               <p
-                className="text-sm mb-3"
+                className="text-sm mb-3 flex-1"
                 style={{ fontWeight: "300", color: "#888" }}
               >
                 Sub-brand or product line
@@ -635,12 +635,12 @@ export default function Home() {
                 $3,000
               </div>
             </div>
-            <div className="bg-white border border-gray-200 rounded-xl p-6">
+            <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col">
               <h3 className="text-gray-900 mb-1" style={{ fontWeight: "500" }}>
                 Campaign Build
               </h3>
               <p
-                className="text-sm mb-3"
+                className="text-sm mb-3 flex-1"
                 style={{ fontWeight: "300", color: "#888" }}
               >
                 Seasonal, holiday, or co-brand partnership
@@ -652,12 +652,12 @@ export default function Home() {
                 $2,500
               </div>
             </div>
-            <div className="bg-white border border-gray-200 rounded-xl p-6">
+            <div className="bg-white border border-gray-200 rounded-xl p-6 flex flex-col">
               <h3 className="text-gray-900 mb-1" style={{ fontWeight: "500" }}>
                 Custom AI Video
               </h3>
               <p
-                className="text-sm mb-3"
+                className="text-sm mb-3 flex-1"
                 style={{ fontWeight: "300", color: "#888" }}
               >
                 AI-generated campaign videos beyond the included avatar and quiz narrations
@@ -686,8 +686,7 @@ export default function Home() {
             className="text-3xl md:text-4xl text-gray-900 text-center mb-14"
             style={{ fontWeight: "300", letterSpacing: "-0.02em" }}
           >
-            What Makes This{" "}
-            <span style={{ fontWeight: "700" }}>Different</span>
+            What Makes This Different
           </h2>
 
           <div className="grid sm:grid-cols-2 gap-8">
