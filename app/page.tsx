@@ -35,14 +35,17 @@ const partners = [
   {
     name: "Foley Family Wines",
     description: "80+ wines, Date Night Collection",
+    logo: "/images/foley-logo.webp",
   },
-{
+  {
     name: "Corks & Cheers (WX Brands)",
     description: "Full catalog experience",
+    logo: "/images/corks-logo.png",
   },
   {
     name: "Bar Dog",
     description: "Single brand, multi-campaign experience",
+    logo: "/images/bar-dog.gif",
   },
 ];
 
@@ -127,7 +130,7 @@ export default function Home() {
             className="text-3xl md:text-4xl text-gray-900 text-center mb-4"
             style={{ fontWeight: "300", letterSpacing: "-0.02em" }}
           >
-            What You <span style={{ fontWeight: "700" }}>Get</span>
+            What You Get
           </h2>
           <p
             className="text-center mb-14 max-w-2xl mx-auto"
@@ -222,7 +225,7 @@ export default function Home() {
             className="text-3xl md:text-4xl text-gray-900 text-center mb-14"
             style={{ fontWeight: "300", letterSpacing: "-0.02em" }}
           >
-            How It <span style={{ fontWeight: "700" }}>Works</span>
+            How It Works
           </h2>
 
           <div className="space-y-10">
@@ -277,7 +280,7 @@ export default function Home() {
             className="text-3xl md:text-4xl text-gray-900 text-center mb-4"
             style={{ fontWeight: "300", letterSpacing: "-0.02em" }}
           >
-            Current <span style={{ fontWeight: "700" }}>Partners</span>
+            Current Partners
           </h2>
           <p
             className="text-center mb-14 max-w-2xl mx-auto"
@@ -286,16 +289,20 @@ export default function Home() {
             See who is already on the platform
           </p>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="flex flex-wrap justify-center gap-6">
             {partners.map((partner) => (
               <div
                 key={partner.name}
-                className="border border-gray-200 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow"
+                className="border border-gray-200 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow w-full sm:w-64"
               >
-                <div className="w-16 h-16 bg-gray-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <svg className="w-8 h-8 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0 0 22.5 18.75V5.25A2.25 2.25 0 0 0 20.25 3H3.75A2.25 2.25 0 0 0 1.5 5.25v13.5A2.25 2.25 0 0 0 3.75 21Z" />
-                  </svg>
+                <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center">
+                  <Image
+                    src={partner.logo}
+                    alt={partner.name}
+                    width={80}
+                    height={80}
+                    className="object-contain max-h-20"
+                  />
                 </div>
                 <h3
                   className="text-gray-900 mb-1"
